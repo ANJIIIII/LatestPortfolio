@@ -1,4 +1,5 @@
 // @flow strict
+"use client";
 
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
@@ -8,6 +9,7 @@ import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
+import { TypeAnimation } from 'react-type-animation';
 
 function HeroSection() {
   return (
@@ -25,9 +27,22 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is {' '}
-            <span className=" text-pink-500">{personalData.name}</span>
+            <span className="bg-gradient-to-r from-[#a855f7] via-[#ec4899] to-[#f59e0b] bg-clip-text text-transparent">{personalData.name}</span>
             {` , I'm a `}
-            <span className=" text-[#16f2b3]">{personalData.designation}</span>
+              <TypeAnimation
+                sequence={[
+                  "Full Stack Developer", 2000,
+                  "Competitive Programmer", 2000,
+                  "Software Developer", 2000,
+                  "Problem Solver", 2000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+                className="text-3xl bg-gradient-to-r from-[#16f2b3] via-[#38bdf8] to-[#ec4899] bg-clip-text text-transparent"
+              />
+
+            {/* <span className=" text-[#16f2b3]">{personalData.designation}</span> */}
             .
           </h1>
 
@@ -114,7 +129,7 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React</span>
+                <span className="text-amber-300">ReactJs</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NextJS</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -129,6 +144,12 @@ function HeroSection() {
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">HTML</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Javascript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Javascript</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Tailwind css</span>
                 <span className="text-gray-400">{"'],"}</span>

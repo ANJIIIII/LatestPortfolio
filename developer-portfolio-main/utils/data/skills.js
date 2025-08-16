@@ -1,8 +1,14 @@
 export const skillsData = [
+  'C',
   'C++',
   'HTML',
   'CSS',
+  'Python',
+  ' Node JS',
   'Javascript',
+ ' MySQL',
+  'PostgreSQL',
+  'Docker',
   'React',
   'Next JS',
   'Tailwind',
@@ -11,7 +17,7 @@ export const skillsData = [
   'Git',
   'Bootstrap',
   'Photoshop',
-  'Illustrator'
+ 
    
 ]
 

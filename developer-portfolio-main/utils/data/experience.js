@@ -1,9 +1,15 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Web developer',
+    title: 'Software developer',
     company: "Digirocket Technologies",
-    duration: "(July 2024 - Present)"
+    duration: "(Dec 2024 - July 2025)",
+  },
+   {
+    id: 2,
+    title: "Web Developer",
+    company: "Digirocket Technologies",
+    duration: "(July 2024 - october 2024)"
   },
   {
     id: 2,
