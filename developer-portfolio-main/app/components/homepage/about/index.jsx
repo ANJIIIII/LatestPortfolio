@@ -11,7 +11,7 @@ function AboutSection() {
         <span className="h-36 w-[2px] bg-[#1a1443]"></span>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 h-full">
-        <div className="order-2 lg:order-1 overflow-y-auto max-h-[80vh] pr-2">
+        <div className="order-2 lg:order-1 max-h-[80vh] pr-2">
           <p className="font-medium mb-4 text-[#16f2b3] text-xl uppercase">Who I am?</p>
 
           <div className="text-gray-200 text-sm lg:text-base space-y-4">
@@ -31,7 +31,7 @@ function AboutSection() {
               <div className="border-l-4 border-cyan-400 pl-3 py-2 bg-gray-800/30 rounded-r-lg">
                 <h3 className="text-cyan-400 font-bold text-base mb-1">Full-Stack Architecture & Development:</h3>
                 <p className="text-gray-300 text-sm">
-                  Expertise in engineering end-to-end, scalable web applications using the MERN stack, applying strong <span className="text-blue-400 font-semibold">system design principles</span>  to ensure high performance, reliability, and maintainability.
+                  Expertise in engineering end-to-end, scalable web applications using the MERN stack, applying strong <span className="text-blue-400 font-semibold">system design principles</span>  to ensure high performance, and maintainability.
                 </p>
               </div>
 
