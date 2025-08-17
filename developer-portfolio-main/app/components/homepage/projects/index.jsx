@@ -127,7 +127,7 @@ const Projects = () => {
         <div className="flex items-center">
           <span className="w-16 sm:w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-4 sm:px-5 text-lg sm:text-xl rounded-md font-semibold">
-            🚀 PROJECTS
+             PROJECTS
           </span>
           <span className="w-16 sm:w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
